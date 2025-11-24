@@ -1,0 +1,1288 @@
+
+{
+    "covid": {
+  "en": {
+    "what": "COVID-19 is a viral respiratory infection caused by the SARS-CoV-2 virus. It spreads through droplets when an infected person coughs, sneezes, or talks.",
+    "symptoms": [
+      "Fever",
+      "Dry cough",
+      "Tiredness",
+      "Sore throat",
+      "Headache",
+      "Loss of taste or smell",
+      "Body pain",
+      "Breathing difficulty (severe cases)"
+    ],
+    "prevention": [
+      "Wear a mask in crowded places",
+      "Wash hands regularly",
+      "Maintain distance from sick people",
+      "Avoid touching face",
+      "Improve ventilation",
+      "Cover coughs and sneezes",
+      "Stay home if sick",
+      "Get vaccinated when available"
+    ],
+    "remedies": [
+      "Rest",
+      "Drink plenty of fluids",
+      "ORS if dehydrated",
+      "Warm soups or herbal teas",
+      "Paracetamol for fever or pain",
+      "Steam inhalation for congestion",
+      "Avoid antibiotics unless prescribed",
+      "Seek medical help if breathing difficulty or chest pain occurs"
+    ]
+  }
+},
+"dengue": {
+  "en": {
+    "what": "Dengue is a viral infection spread through the bite of Aedes mosquitoes. It causes high fever, joint and muscle pain, and weakness. Severe dengue can lead to bleeding and dehydration.",
+    "symptoms": [
+      "High fever",
+      "Severe joint and muscle pain",
+      "Headache",
+      "Nausea or vomiting",
+      "Skin rash",
+      "Weakness",
+      "Bleeding gums or nose (severe cases)"
+    ],
+    "prevention": [
+      "Avoid mosquito bites",
+      "Use mosquito repellent",
+      "Wear long sleeves and pants",
+      "Use mosquito nets",
+      "Keep surroundings clean",
+      "Remove stagnant water containers",
+      "Close windows in early morning and evening"
+    ],
+    "remedies": [
+      "Rest",
+      "Drink plenty of fluids",
+      "ORS for dehydration",
+      "Paracetamol for fever",
+      "Avoid aspirin or ibuprofen",
+      "Seek medical help if bleeding or severe weakness occurs"
+    ]
+  }
+},
+"malaria": {
+  "en": {
+    "what": "Malaria is a parasitic infection transmitted through the bite of infected Anopheles mosquitoes. It affects red blood cells and can become life-threatening if untreated.",
+    "symptoms": [
+      "High fever",
+      "Chills and shivering",
+      "Sweating",
+      "Headache",
+      "Body pain",
+      "Nausea or vomiting",
+      "Fatigue",
+      "Anemia (severe cases)"
+    ],
+    "prevention": [
+      "Avoid mosquito bites",
+      "Use mosquito repellent",
+      "Sleep under insecticide-treated nets",
+      "Wear long sleeves and pants",
+      "Keep surroundings clean",
+      "Remove stagnant water",
+      "Use window screens"
+    ],
+    "remedies": [
+      "Seek medical treatment immediately",
+      "Take prescribed antimalarial medications",
+      "Drink plenty of fluids",
+      "Rest",
+      "Paracetamol for fever",
+      "Avoid self-medication without diagnosis"
+    ]
+  }
+},
+"tuberculosis": {
+  "en": {
+    "what": "Tuberculosis (TB) is a bacterial infection caused by Mycobacterium tuberculosis. It mainly affects the lungs but can also affect other organs. TB spreads through droplets when an infected person coughs or sneezes.",
+    "symptoms": [
+      "Persistent cough for more than 2 weeks",
+      "Coughing up mucus or blood",
+      "Fever",
+      "Night sweats",
+      "Weight loss",
+      "Chest pain",
+      "Fatigue",
+      "Loss of appetite"
+    ],
+    "prevention": [
+      "Cover mouth while coughing or sneezing",
+      "Avoid close contact with infected individuals",
+      "Ensure proper ventilation",
+      "Complete BCG vaccination",
+      "Use masks in high-risk areas",
+      "Improve hygiene and sanitation"
+    ],
+    "remedies": [
+      "Take full TB medication course as prescribed",
+      "Regular follow-up with doctor",
+      "Eat nutritious food",
+      "Rest adequately",
+      "Avoid smoking and alcohol",
+      "Do NOT stop medication even if symptoms reduce"
+    ]
+  }
+},
+"influenza": {
+  "en": {
+    "what": "Influenza (flu) is a contagious viral infection that affects the nose, throat, and lungs. It spreads through droplets when an infected person coughs, sneezes, or talks.",
+    "symptoms": [
+      "Fever",
+      "Cough",
+      "Runny or blocked nose",
+      "Sore throat",
+      "Body aches",
+      "Headache",
+      "Fatigue",
+      "Chills",
+      "Vomiting (sometimes)"
+    ],
+    "prevention": [
+      "Get annual flu vaccination",
+      "Wash hands regularly",
+      "Avoid close contact with sick individuals",
+      "Cover mouth and nose when coughing or sneezing",
+      "Wear a mask in crowded places",
+      "Improve ventilation",
+      "Avoid touching face"
+    ],
+    "remedies": [
+      "Rest",
+      "Drink plenty of fluids",
+      "Warm soups and teas",
+      "Paracetamol for fever and pain",
+      "Steam inhalation for congestion",
+      "Avoid antibiotics unless prescribed",
+      "Seek medical help if breathing difficulty occurs"
+    ]
+  }
+},
+"typhoid": {
+  "en": {
+    "what": "Typhoid is a bacterial infection caused by Salmonella typhi, usually spread through contaminated food or water. It affects the digestive system and can become serious if untreated.",
+    "symptoms": [
+      "Prolonged fever",
+      "Headache",
+      "Stomach pain",
+      "Loss of appetite",
+      "Weakness",
+      "Diarrhea or constipation",
+      "Rose spots on the skin (sometimes)"
+    ],
+    "prevention": [
+      "Drink clean and boiled water",
+      "Maintain good hygiene",
+      "Wash hands before eating",
+      "Avoid street food",
+      "Ensure proper sanitation",
+      "Get typhoid vaccination",
+      "Eat well-cooked food"
+    ],
+    "remedies": [
+      "Take prescribed antibiotics",
+      "Drink plenty of fluids",
+      "ORS for dehydration",
+      "Eat light and soft foods",
+      "Rest well",
+      "Avoid spicy and oily foods",
+      "Seek medical help if symptoms worsen"
+    ]
+  }
+},
+"cholera": {
+  "en": {
+    "what": "Cholera is a bacterial infection caused by Vibrio cholerae, usually spread through contaminated food or water. It leads to severe watery diarrhea and dehydration and can be life-threatening if not treated quickly.",
+    "symptoms": [
+      "Watery diarrhea (rice-water stools)",
+      "Vomiting",
+      "Rapid dehydration",
+      "Dry mouth",
+      "Muscle cramps",
+      "Low blood pressure",
+      "Weakness"
+    ],
+    "prevention": [
+      "Drink clean and boiled water",
+      "Use ORS and safe fluids",
+      "Maintain proper sanitation",
+      "Wash hands regularly",
+      "Avoid contaminated food and water",
+      "Eat freshly cooked food",
+      "Avoid raw vegetables and street food"
+    ],
+    "remedies": [
+      "Immediate ORS intake",
+      "Drink clean water frequently",
+      "Zinc supplements (if advised)",
+      "Hospital treatment for severe dehydration",
+      "IV fluids if needed",
+      "Antibiotics only if prescribed",
+      "Seek urgent medical help for severe symptoms"
+    ]
+  }
+},
+"chikungunya": {
+  "en": {
+    "what": "Chikungunya is a viral infection transmitted through the bite of Aedes mosquitoes. It causes severe joint pain and fever, and recovery may take weeks.",
+    "symptoms": [
+      "High fever",
+      "Severe joint pain",
+      "Headache",
+      "Muscle pain",
+      "Swelling in joints",
+      "Rash",
+      "Fatigue"
+    ],
+    "prevention": [
+      "Avoid mosquito bites",
+      "Use mosquito repellent",
+      "Wear long sleeves and pants",
+      "Use mosquito nets",
+      "Remove stagnant water",
+      "Keep surroundings clean",
+      "Use window and door screens"
+    ],
+    "remedies": [
+      "Rest",
+      "Drink plenty of fluids",
+      "Paracetamol for fever and pain",
+      "Warm compress for joint pain",
+      "Avoid aspirin or ibuprofen without doctor advice",
+      "Gentle movement and stretching",
+      "Seek medical care if pain is severe"
+    ]
+  }
+},
+"hepatitis_a": {
+  "en": {
+    "what": "Hepatitis A is a viral infection that affects the liver, usually spread through contaminated food or water. It often causes jaundice and digestive symptoms but usually resolves with proper care.",
+    "symptoms": [
+      "Yellowing of skin and eyes (jaundice)",
+      "Fever",
+      "Nausea",
+      "Vomiting",
+      "Stomach discomfort",
+      "Dark urine",
+      "Fatigue",
+      "Loss of appetite"
+    ],
+    "prevention": [
+      "Drink clean and boiled water",
+      "Maintain hand hygiene",
+      "Avoid contaminated food",
+      "Ensure proper sanitation",
+      "Get Hepatitis A vaccination",
+      "Avoid eating raw or undercooked food",
+      "Wash fruits and vegetables properly"
+    ],
+    "remedies": [
+      "Rest",
+      "Drink plenty of fluids",
+      "Eat light and nutritious food",
+      "Avoid alcohol",
+      "Avoid oily and spicy foods",
+      "Take prescribed medications only",
+      "Seek medical advice if symptoms worsen"
+    ]
+  }
+},
+"hepatitis_b": {
+  "en": {
+    "what": "Hepatitis B is a viral infection that affects the liver and spreads through blood or body fluids. It can become chronic and lead to serious liver damage if untreated.",
+    "symptoms": [
+      "Jaundice (yellow skin and eyes)",
+      "Fatigue",
+      "Fever",
+      "Dark urine",
+      "Stomach pain",
+      "Loss of appetite",
+      "Nausea and vomiting",
+      "Joint pain"
+    ],
+    "prevention": [
+      "Get Hepatitis B vaccination",
+      "Avoid sharing needles or razors",
+      "Practice safe sex",
+      "Ensure safe blood transfusion",
+      "Avoid contact with infected blood",
+      "Use sterilized medical equipment"
+    ],
+    "remedies": [
+      "Take antiviral medication if prescribed",
+      "Regular liver check-ups",
+      "Rest",
+      "Eat a healthy diet",
+      "Avoid alcohol",
+      "Avoid fatty and oily foods",
+      "Consult a doctor for long-term management"
+    ]
+  }
+},
+"hepatitis_c": {
+  "en": {
+    "what": "Hepatitis C is a viral infection that spreads mainly through infected blood. It often shows no early symptoms but can lead to chronic liver disease and serious complications if untreated.",
+    "symptoms": [
+      "Fatigue",
+      "Fever",
+      "Nausea",
+      "Loss of appetite",
+      "Dark urine",
+      "Jaundice (yellow skin and eyes)",
+      "Joint pain",
+      "Abdominal pain"
+    ],
+    "prevention": [
+      "Avoid sharing needles or syringes",
+      "Ensure safe blood transfusions",
+      "Use sterilized medical equipment",
+      "Avoid sharing razors or toothbrushes",
+      "Practice safe sex",
+      "Get tested if at risk"
+    ],
+    "remedies": [
+      "Take antiviral medication if prescribed",
+      "Regular liver monitoring",
+      "Healthy and balanced diet",
+      "Avoid alcohol",
+      "Avoid fatty and oily foods",
+      "Consult a doctor for long-term treatment"
+    ]
+  }
+},
+"hiv": {
+  "en": {
+    "what": "HIV (Human Immunodeficiency Virus) is a virus that attacks and weakens the immune system, making the body more vulnerable to infections. With proper treatment, people can live long and healthy lives.",
+    "symptoms": [
+      "Fever",
+      "Tiredness",
+      "Weight loss",
+      "Night sweats",
+      "Swollen lymph nodes",
+      "Frequent infections",
+      "Diarrhea",
+      "Skin rashes"
+    ],
+    "prevention": [
+      "Practice safe sex",
+      "Avoid sharing needles",
+      "Ensure safe blood transfusion",
+      "Use sterilized medical equipment",
+      "Get regular HIV testing",
+      "Prevent mother-to-child transmission during pregnancy"
+    ],
+    "remedies": [
+      "Take antiretroviral therapy (ART) as prescribed",
+      "Regular medical check-ups",
+      "Eat a balanced and nutritious diet",
+      "Maintain hygiene",
+      "Avoid smoking and alcohol",
+      "Seek counseling and support if needed"
+    ]
+  }
+},
+"measles": {
+  "en": {
+    "what": "Measles is a highly contagious viral infection that spreads through the air when an infected person coughs or sneezes. It mainly affects children and can lead to serious complications if untreated.",
+    "symptoms": [
+      "High fever",
+      "Cough",
+      "Runny nose",
+      "Red and watery eyes",
+      "Sore throat",
+      "Rash starting on the face and spreading",
+      "White spots inside the mouth (Koplik spots)",
+      "Fatigue"
+    ],
+    "prevention": [
+      "Get MMR vaccination",
+      "Avoid contact with infected individuals",
+      "Maintain good hygiene",
+      "Cover mouth and nose when coughing or sneezing",
+      "Ensure proper ventilation",
+      "Wash hands regularly"
+    ],
+    "remedies": [
+      "Rest",
+      "Drink plenty of fluids",
+      "Paracetamol for fever",
+      "Humidifier or steam inhalation for cough",
+      "Vitamin A supplements (if prescribed)",
+      "Seek medical help if breathing difficulty or severe symptoms occur"
+    ]
+  }
+},
+"mumps": {
+  "en": {
+    "what": "Mumps is a contagious viral infection that primarily affects the salivary glands located near the jaw. It spreads through saliva, coughing, sneezing, or sharing food and drinks.",
+    "symptoms": [
+      "Swelling near the jaw or cheeks",
+      "Fever",
+      "Headache",
+      "Pain while chewing or swallowing",
+      "Fatigue",
+      "Loss of appetite",
+      "Ear pain",
+      "Muscle aches"
+    ],
+    "prevention": [
+      "Get MMR vaccination",
+      "Avoid sharing food, drinks, or utensils",
+      "Cover mouth when coughing or sneezing",
+      "Maintain good hygiene",
+      "Wash hands regularly",
+      "Avoid close contact with infected individuals"
+    ],
+    "remedies": [
+      "Rest",
+      "Drink plenty of fluids",
+      "Warm or cold compress on swollen areas",
+      "Soft foods to reduce chewing pain",
+      "Paracetamol for fever and pain",
+      "Avoid acidic foods",
+      "Seek medical help if severe swelling or complications occur"
+    ]
+  }
+},
+"chickenpox": {
+  "en": {
+    "what": "Chickenpox is a highly contagious viral infection caused by the varicella-zoster virus. It spreads easily from person to person through coughing, sneezing, or direct contact with the fluid in blisters.",
+    "symptoms": [
+      "Itchy red blisters filled with fluid",
+      "Fever",
+      "Fatigue",
+      "Headache",
+      "Loss of appetite",
+      "Scabs forming after blisters dry",
+      "Body aches"
+    ],
+    "prevention": [
+      "Get varicella vaccination",
+      "Avoid close contact with infected individuals",
+      "Maintain good hygiene",
+      "Do not share personal items",
+      "Cover mouth and nose when coughing or sneezing"
+    ],
+    "remedies": [
+      "Rest",
+      "Drink plenty of fluids",
+      "Calamine lotion for itching",
+      "Oatmeal bath to soothe skin",
+      "Paracetamol for fever (avoid aspirin in children)",
+      "Keep nails short to prevent scratching",
+      "Seek medical help if breathing difficulty or severe infection occurs"
+    ]
+  }
+},
+"jaundice": {
+  "en": {
+    "what": "Jaundice is a condition where the skin and eyes turn yellow due to excess bilirubin in the blood, usually caused by liver problems, infection, or blockage of bile ducts.",
+    "symptoms": [
+      "Yellowing of skin and eyes",
+      "Dark urine",
+      "Pale stools",
+      "Fatigue",
+      "Nausea",
+      "Loss of appetite",
+      "Itching",
+      "Stomach pain"
+    ],
+    "prevention": [
+      "Maintain good hygiene",
+      "Avoid contaminated food and water",
+      "Limit alcohol consumption",
+      "Get vaccinated for Hepatitis",
+      "Avoid sharing needles",
+      "Practice safe sex",
+      "Wash hands regularly"
+    ],
+    "remedies": [
+      "Drink plenty of fluids",
+      "Eat light and nutritious food",
+      "Avoid alcohol completely",
+      "Avoid oily and spicy foods",
+      "Rest well",
+      "Follow doctor-prescribed medications",
+      "Seek medical help if symptoms worsen"
+    ]
+  }
+},"pneumonia": {
+  "en": {
+    "what": "Pneumonia is an infection that inflames the air sacs in one or both lungs, caused by bacteria, viruses, or fungi. It can be mild or life-threatening, especially in children, elderly, and people with weak immunity.",
+    "symptoms": [
+      "Fever",
+      "Chest pain",
+      "Cough with mucus",
+      "Shortness of breath",
+      "Fast breathing",
+      "Fatigue",
+      "Chills",
+      "Loss of appetite"
+    ],
+    "prevention": [
+      "Get pneumonia and flu vaccination",
+      "Wash hands regularly",
+      "Avoid smoking",
+      "Maintain good hygiene",
+      "Avoid close contact with sick individuals",
+      "Strengthen immune system with healthy diet",
+      "Practice proper cough etiquette"
+    ],
+    "remedies": [
+      "Take prescribed antibiotics or antivirals",
+      "Rest well",
+      "Drink plenty of fluids",
+      "Steam inhalation for congestion",
+      "Pain relievers for fever and chest pain",
+      "Seek urgent medical help if breathing difficulty occurs"
+    ]
+  }
+},
+"diarrhea": {
+  "en": {
+    "what": "Diarrhea is a condition where a person passes loose or watery stools frequently. It can be caused by infections, contaminated food or water, or digestive disorders, and may lead to dehydration.",
+    "symptoms": [
+      "Loose or watery stools",
+      "Frequent bowel movements",
+      "Stomach cramps",
+      "Nausea",
+      "Vomiting",
+      "Dehydration",
+      "Dry mouth",
+      "Weakness"
+    ],
+    "prevention": [
+      "Drink clean and safe water",
+      "Maintain proper hand hygiene",
+      "Avoid street food",
+      "Wash fruits and vegetables thoroughly",
+      "Ensure proper food storage",
+      "Avoid contaminated food and water"
+    ],
+    "remedies": [
+      "ORS to prevent dehydration",
+      "Drink plenty of fluids",
+      "Eat light foods like rice, banana, toast",
+      "Avoid oily and spicy foods",
+      "Avoid dairy temporarily",
+      "Take zinc supplements if advised",
+      "Seek medical help if symptoms persist or dehydration worsens"
+    ]
+  }
+},
+"uti": {
+  "en": {
+    "what": "A Urinary Tract Infection (UTI) is an infection in any part of the urinary system, usually caused by bacteria. It commonly affects the bladder and urethra and is more common in women.",
+    "symptoms": [
+      "Burning sensation during urination",
+      "Frequent urge to urinate",
+      "Lower abdominal pain",
+      "Cloudy or strong-smelling urine",
+      "Blood in urine (sometimes)",
+      "Fever (in severe cases)",
+      "Pelvic discomfort"
+    ],
+    "prevention": [
+      "Drink plenty of water",
+      "Maintain good genital hygiene",
+      "Do not hold urine for long periods",
+      "Wipe from front to back after using the toilet",
+      "Avoid tight clothing",
+      "Urinate after sexual activity",
+      "Avoid scented feminine products"
+    ],
+    "remedies": [
+      "Drink plenty of water",
+      "Take doctor-prescribed antibiotics",
+      "Use heating pad for pain relief",
+      "Drink cranberry juice (optional benefit)",
+      "Avoid caffeine and alcohol",
+      "Seek medical help if fever or back pain occurs"
+    ]
+  }
+},
+"diabetes": {
+  "en": {
+    "what": "Diabetes is a chronic condition where the body cannot properly regulate blood sugar levels, either due to lack of insulin or the body's inability to use insulin effectively.",
+    "symptoms": [
+      "Increased thirst",
+      "Frequent urination",
+      "Unusual hunger",
+      "Fatigue",
+      "Blurry vision",
+      "Slow healing wounds",
+      "Weight loss (Type 1)",
+      "Numbness or tingling in hands and feet"
+    ],
+    "prevention": [
+      "Maintain a healthy diet",
+      "Limit sugar and processed foods",
+      "Exercise regularly",
+      "Maintain healthy body weight",
+      "Avoid smoking and alcohol",
+      "Regular blood sugar check-ups",
+      "Manage stress"
+    ],
+    "remedies": [
+      "Follow doctor-prescribed medication or insulin",
+      "Eat balanced meals with controlled carbohydrates",
+      "Exercise regularly",
+      "Monitor blood sugar levels",
+      "Stay hydrated",
+      "Foot care to prevent infections",
+      "Seek medical help for complications"
+    ]
+  }
+},
+"hypertension": {
+  "en": {
+    "what": "Hypertension, or high blood pressure, is a condition where the force of blood against the artery walls remains consistently high. It often shows no symptoms but increases the risk of heart attack, stroke, and kidney disease.",
+    "symptoms": [
+      "Often no symptoms",
+      "Headache (sometimes)",
+      "Dizziness",
+      "Blurred vision",
+      "Shortness of breath",
+      "Chest pain (severe cases)",
+      "Nosebleeds (rare)"
+    ],
+    "prevention": [
+      "Maintain a healthy diet",
+      "Reduce salt intake",
+      "Exercise regularly",
+      "Maintain healthy body weight",
+      "Avoid smoking",
+      "Limit alcohol consumption",
+      "Manage stress",
+      "Regular blood pressure check-ups"
+    ],
+    "remedies": [
+      "Take doctor-prescribed BP medication",
+      "Reduce salt and processed foods",
+      "Exercise regularly",
+      "Stay hydrated",
+      "Avoid smoking and alcohol",
+      "Monitor blood pressure regularly",
+      "Seek medical help if chest pain or severe symptoms occur"
+    ]
+  }
+},
+"heart_attack": {
+  "en": {
+    "what": "A heart attack occurs when blood flow to a part of the heart is blocked, usually due to a blood clot. This prevents oxygen from reaching the heart muscle, causing damage.",
+    "symptoms": [
+      "Chest pain or pressure",
+      "Pain spreading to left arm, jaw, back, or neck",
+      "Shortness of breath",
+      "Sweating",
+      "Nausea",
+      "Dizziness",
+      "Fatigue",
+      "Cold sweat"
+    ],
+    "prevention": [
+      "Maintain a healthy diet",
+      "Exercise regularly",
+      "Avoid smoking and alcohol",
+      "Maintain healthy weight",
+      "Control blood pressure and diabetes",
+      "Manage cholesterol levels",
+      "Reduce stress",
+      "Regular heart check-ups"
+    ],
+    "remedies": [
+      "Seek emergency medical help immediately",
+      "Chew aspirin if advised",
+      "Stay calm and rest",
+      "Take doctor-prescribed medications",
+      "Long-term lifestyle changes",
+      "Cardiac rehabilitation if recommended"
+    ]
+  }
+},
+"stroke": {
+  "en": {
+    "what": "A stroke occurs when the blood supply to part of the brain is blocked or when a blood vessel in the brain bursts, leading to brain damage. It requires immediate medical attention.",
+    "symptoms": [
+      "Sudden weakness on one side of the body",
+      "Facial drooping",
+      "Slurred or difficult speech",
+      "Confusion",
+      "Sudden severe headache",
+      "Difficulty walking",
+      "Vision problems",
+      "Dizziness"
+    ],
+    "prevention": [
+      "Maintain healthy blood pressure",
+      "Control diabetes and cholesterol",
+      "Avoid smoking",
+      "Limit alcohol consumption",
+      "Exercise regularly",
+      "Maintain a healthy diet",
+      "Manage stress",
+      "Regular health check-ups"
+    ],
+    "remedies": [
+      "Seek immediate emergency medical help",
+      "Do NOT give food or drink",
+      "Keep the person lying on their side",
+      "Follow doctor-prescribed medications",
+      "Physical therapy for recovery",
+      "Speech therapy if needed",
+      "Long-term lifestyle changes"
+    ]
+  }
+},
+"asthma": {
+  "en": {
+    "what": "Asthma is a chronic condition that affects the airways, causing them to become inflamed and narrowed, making breathing difficult. It can be triggered by allergies, pollution, exercise, or infections.",
+    "symptoms": [
+      "Wheezing (whistling sound while breathing)",
+      "Shortness of breath",
+      "Chest tightness",
+      "Coughing (especially at night or early morning)",
+      "Difficulty breathing",
+      "Fatigue during physical activity"
+    ],
+    "prevention": [
+      "Avoid allergens and triggers",
+      "Keep home dust-free",
+      "Avoid smoking and polluted environments",
+      "Use mask in dusty areas",
+      "Maintain good ventilation",
+      "Take prescribed inhaler regularly",
+      "Avoid strong perfumes or chemicals"
+    ],
+    "remedies": [
+      "Use doctor-prescribed inhaler (reliever or controller)",
+      "Sit upright and stay calm during an attack",
+      "Drink warm fluids",
+      "Steam inhalation",
+      "Avoid cold air exposure",
+      "Seek immediate medical help if breathing worsens"
+    ]
+  }
+},
+"copd": {
+  "en": {
+    "what": "COPD is a chronic lung disease, often caused by smoking or long-term exposure to pollution, dust, or chemicals. It causes airflow blockage and breathing problems.",
+    "symptoms": [
+      "Chronic cough",
+      "Shortness of breath",
+      "Wheezing",
+      "Chest tightness",
+      "Frequent respiratory infections",
+      "Fatigue",
+      "Excess mucus production"
+    ],
+    "prevention": [
+      "Avoid smoking",
+      "Avoid exposure to pollution and dust",
+      "Use mask in polluted environments",
+      "Improve ventilation at home",
+      "Avoid chemical fumes",
+      "Regular exercise to strengthen lungs",
+      "Healthy diet to boost immunity"
+    ],
+    "remedies": [
+      "Quit smoking immediately",
+      "Use doctor-prescribed inhalers",
+      "Breathing exercises",
+      "Steam inhalation",
+      "Drink plenty of fluids",
+      "Pulmonary rehabilitation if advised",
+      "Seek medical help if breathing worsens"
+    ]
+  }
+},
+"cancer": {
+  "en": {
+    "what": "Cancer occurs when abnormal cells in the body grow uncontrollably and spread to other parts. It can affect any organ and may become life-threatening if not detected early.",
+    "symptoms": [
+      "Unexplained weight loss",
+      "Persistent fatigue",
+      "Lumps or swelling",
+      "Long-lasting pain",
+      "Changes in skin or moles",
+      "Abnormal bleeding",
+      "Persistent cough",
+      "Changes in bowel or bladder habits"
+    ],
+    "prevention": [
+      "Avoid smoking and tobacco",
+      "Limit alcohol consumption",
+      "Eat a healthy diet rich in fruits and vegetables",
+      "Maintain healthy weight",
+      "Exercise regularly",
+      "Avoid excessive sun exposure",
+      "Get regular health screenings",
+      "Avoid exposure to harmful chemicals"
+    ],
+    "remedies": [
+      "Follow doctor-prescribed treatment (chemotherapy, radiation, surgery)",
+      "Healthy and nutritious diet",
+      "Adequate rest",
+      "Pain management as advised",
+      "Emotional and psychological support",
+      "Regular follow-up appointments",
+      "Avoid smoking and alcohol"
+    ]
+  }
+},
+"anemia": {
+  "en": {
+    "what": "Anemia is a condition where the body has a lower-than-normal number of red blood cells or hemoglobin, leading to reduced oxygen transport in the body.",
+    "symptoms": [
+      "Fatigue or tiredness",
+      "Pale skin",
+      "Dizziness",
+      "Shortness of breath",
+      "Headache",
+      "Weakness",
+      "Cold hands and feet",
+      "Chest pain (severe cases)"
+    ],
+    "prevention": [
+      "Eat iron-rich foods",
+      "Include vitamin C in diet",
+      "Regular health check-ups",
+      "Avoid excessive tea or coffee with meals",
+      "Treat underlying infections",
+      "Balanced and nutritious diet"
+    ],
+    "remedies": [
+      "Eat iron-rich foods like spinach, beans, and red meat",
+      "Take iron supplements if prescribed",
+      "Increase vitamin C intake",
+      "Adequate rest",
+      "Avoid heavy exercise during severe anemia",
+      "Seek medical help if symptoms worsen"
+    ]
+  }
+},
+"thyroid": {
+  "en": {
+    "what": "Thyroid disorders occur when the thyroid gland produces too little (hypothyroidism) or too much (hyperthyroidism) hormone, affecting metabolism, energy levels, and body functions.",
+    "symptoms": [
+      "Weight gain or weight loss",
+      "Fatigue",
+      "Mood changes",
+      "Hair loss",
+      "Dry skin",
+      "Irregular periods",
+      "Cold or heat intolerance",
+      "Swelling in neck (goiter)"
+    ],
+    "prevention": [
+      "Maintain a balanced diet",
+      "Ensure adequate iodine intake",
+      "Regular thyroid check-ups",
+      "Manage stress",
+      "Avoid smoking",
+      "Maintain healthy weight"
+    ],
+    "remedies": [
+      "Take doctor-prescribed thyroid medication",
+      "Regular thyroid hormone monitoring",
+      "Eat iodine-rich foods (hypothyroidism)",
+      "Avoid excess iodine (hyperthyroidism)",
+      "Get enough sleep",
+      "Manage stress through relaxation techniques",
+      "Seek medical help if symptoms worsen"
+    ]
+  }
+},
+"kidney_stones": {
+  "en": {
+    "what": "Kidney stones are hard deposits made of minerals and salts that form inside the kidneys. They can block the urinary tract and cause severe pain.",
+    "symptoms": [
+      "Severe side or back pain",
+      "Pain while urinating",
+      "Blood in urine",
+      "Nausea or vomiting",
+      "Frequent urge to urinate",
+      "Cloudy or foul-smelling urine",
+      "Lower abdominal pain"
+    ],
+    "prevention": [
+      "Drink plenty of water",
+      "Limit salt intake",
+      "Reduce oxalate-rich foods",
+      "Limit sugary drinks",
+      "Avoid excessive animal protein",
+      "Maintain healthy weight"
+    ],
+    "remedies": [
+      "Drink plenty of water to flush stones",
+      "Pain relievers as prescribed",
+      "Warm compress on painful area",
+      "Lemon water to help break stones",
+      "Medical treatment for large stones",
+      "Seek urgent help if severe pain or fever occurs"
+    ]
+  }
+},
+"ckd": {
+  "en": {
+    "what": "Chronic Kidney Disease (CKD) is a long-term condition where the kidneys gradually lose their ability to filter waste and excess fluid from the blood. It can progress over time and may lead to kidney failure.",
+    "symptoms": [
+      "Swelling in legs, ankles, or feet",
+      "Fatigue",
+      "Nausea",
+      "Loss of appetite",
+      "Decreased urine output",
+      "Shortness of breath",
+      "Muscle cramps",
+      "Dark or foamy urine"
+    ],
+    "prevention": [
+      "Control blood pressure",
+      "Manage diabetes effectively",
+      "Avoid excessive salt intake",
+      "Drink adequate water",
+      "Maintain healthy weight",
+      "Avoid smoking and alcohol",
+      "Regular kidney function check-ups",
+      "Limit use of painkillers like NSAIDs"
+    ],
+    "remedies": [
+      "Follow doctor-prescribed medications",
+      "Low-salt and kidney-friendly diet",
+      "Control blood sugar and blood pressure",
+      "Drink fluids as advised by doctor",
+      "Avoid high-protein foods if recommended",
+      "Avoid alcohol and smoking",
+      "Seek medical help if swelling or symptoms worsen"
+    ]
+  }
+},
+"arthritis": {
+  "en": {
+    "what": "Arthritis is a condition that causes inflammation and stiffness in the joints, leading to pain and reduced movement. It commonly affects the knees, hands, hips, and spine.",
+    "symptoms": [
+      "Joint pain",
+      "Joint swelling",
+      "Stiffness (especially in the morning)",
+      "Reduced range of motion",
+      "Warmth or redness around joints",
+      "Fatigue",
+      "Difficulty walking or moving joints"
+    ],
+    "prevention": [
+      "Maintain a healthy weight",
+      "Regular exercise and stretching",
+      "Avoid joint injuries",
+      "Balanced diet rich in calcium and vitamin D",
+      "Correct posture",
+      "Avoid repetitive joint strain"
+    ],
+    "remedies": [
+      "Gentle exercise and stretching",
+      "Warm compress for stiffness",
+      "Cold compress for swelling",
+      "Pain relievers as prescribed",
+      "Physiotherapy",
+      "Use supportive braces if recommended",
+      "Seek medical help if pain worsens"
+    ]
+  }
+},
+"migraine": {
+  "en": {
+    "what": "Migraine is a neurological condition that causes intense, throbbing headaches, often accompanied by nausea, sensitivity to light and sound, and visual disturbances. Attacks can last from hours to days.",
+    "symptoms": [
+      "Severe headache (usually on one side)",
+      "Nausea or vomiting",
+      "Sensitivity to light",
+      "Sensitivity to sound",
+      "Visual disturbances (aura)",
+      "Blurred vision",
+      "Fatigue",
+      "Dizziness"
+    ],
+    "prevention": [
+      "Avoid known triggers (stress, certain foods, lack of sleep)",
+      "Maintain regular sleep schedule",
+      "Stay hydrated",
+      "Eat meals on time",
+      "Manage stress",
+      "Limit screen exposure",
+      "Avoid loud noises and bright lights"
+    ],
+    "remedies": [
+      "Rest in a dark, quiet room",
+      "Drink plenty of water",
+      "Cold or warm compress on head or neck",
+      "Pain relievers as prescribed",
+      "Caffeine in small amounts may help",
+      "Avoid strong smells and lights",
+      "Seek medical help for frequent or severe migraines"
+    ]
+  }
+},
+"epilepsy": {
+  "en": {
+    "what": "Epilepsy is a neurological disorder in which abnormal brain activity causes repeated seizures. Seizures may involve uncontrolled movements, loss of awareness, or unusual behavior.",
+    "symptoms": [
+      "Recurrent seizures",
+      "Jerking movements",
+      "Loss of consciousness",
+      "Confusion after a seizure",
+      "Staring spells",
+      "Unusual sensations",
+      "Loss of awareness",
+      "Temporary breathing difficulty"
+    ],
+    "prevention": [
+      "Take medications regularly",
+      "Avoid flashing lights if sensitive",
+      "Manage stress",
+      "Get enough sleep",
+      "Avoid alcohol and drugs",
+      "Wear protective gear to prevent injury",
+      "Regular medical check-ups"
+    ],
+    "remedies": [
+      "Take doctor-prescribed anti-seizure medications",
+      "Ensure adequate sleep",
+      "Stay calm during a seizure",
+      "Lay person on their side during a seizure",
+      "Remove dangerous objects nearby",
+      "Do NOT put anything in the mouth",
+      "Seek medical help for prolonged seizures"
+    ]
+  }
+},
+"pcos": {
+  "en": {
+    "what": "PCOS (Polycystic Ovary Syndrome) is a hormonal disorder in women where the ovaries produce excess male hormones, leading to irregular periods, cysts in ovaries, and metabolic issues.",
+    "symptoms": [
+      "Irregular periods",
+      "Acne",
+      "Weight gain",
+      "Excess facial or body hair",
+      "Hair thinning",
+      "Infertility issues",
+      "Darkening of skin in neck or armpits",
+      "Mood swings"
+    ],
+    "prevention": [
+      "Maintain a healthy weight",
+      "Exercise regularly",
+      "Balanced and nutritious diet",
+      "Reduce sugar and processed foods",
+      "Manage stress",
+      "Regular medical check-ups"
+    ],
+    "remedies": [
+      "Lifestyle changes (diet + exercise)",
+      "Take doctor-prescribed medications",
+      "Hormonal treatment if advised",
+      "Maintain healthy weight",
+      "Reduce sugar intake",
+      "Seek medical help for fertility concerns"
+    ]
+  }
+},
+"dehydration": {
+  "en": {
+    "what": "Dehydration occurs when the body loses more fluids than it takes in, leading to insufficient water for normal body functions. It can result from diarrhea, vomiting, excessive sweating, or inadequate fluid intake.",
+    "symptoms": [
+      "Dry mouth and throat",
+      "Thirst",
+      "Dark yellow urine",
+      "Dizziness",
+      "Headache",
+      "Fatigue",
+      "Low urine output",
+      "Dry skin",
+      "Rapid heartbeat (severe cases)"
+    ],
+    "prevention": [
+      "Drink enough water daily",
+      "Increase fluids during hot weather",
+      "Drink ORS during diarrhea or vomiting",
+      "Avoid excessive alcohol and caffeine",
+      "Take breaks and hydrate during exercise",
+      "Eat hydrating foods like fruits"
+    ],
+    "remedies": [
+      "Drink plenty of water",
+      "ORS to replace lost salts and fluids",
+      "Coconut water or electrolyte drinks",
+      "Avoid sugary or caffeinated drinks",
+      "Rest in a cool place",
+      "Seek medical help if severe dehydration occurs"
+    ]
+  }
+},
+"malnutrition": {
+  "en": {
+    "what": "Malnutrition occurs when the body does not receive enough essential nutrients, leading to weakness, weight loss, and increased risk of illness. It can result from poor diet, digestive problems, or chronic disease.",
+    "symptoms": [
+      "Weight loss",
+      "Weakness",
+      "Fatigue",
+      "Frequent infections",
+      "Slow growth in children",
+      "Hair loss",
+      "Dry skin",
+      "Swelling in legs or feet (severe cases)"
+    ],
+    "prevention": [
+      "Eat a balanced and nutritious diet",
+      "Include protein-rich foods",
+      "Ensure adequate vitamins and minerals",
+      "Improve hygiene and sanitation",
+      "Breastfeeding for infants",
+      "Regular health check-ups",
+      "Treat underlying diseases"
+    ],
+    "remedies": [
+      "Nutrient-rich foods (eggs, milk, vegetables, fruits)",
+      "Protein supplements if advised",
+      "Vitamin and mineral supplements",
+      "Treat underlying infections",
+      "Adequate rest",
+      "Medical supervision for severe cases"
+    ]
+  }
+},
+"heat_stroke": {
+  "en": {
+    "what": "Heat stroke is a severe condition caused by prolonged exposure to high temperatures or strenuous physical activity in hot environments, leading to the body's inability to regulate temperature.",
+    "symptoms": [
+      "High body temperature",
+      "Hot and dry skin",
+      "Confusion or dizziness",
+      "Headache",
+      "Rapid heartbeat",
+      "Nausea or vomiting",
+      "Seizures (severe cases)",
+      "Loss of consciousness"
+    ],
+    "prevention": [
+      "Stay hydrated",
+      "Avoid direct sunlight during peak heat",
+      "Wear light and loose clothing",
+      "Use hat or umbrella outdoors",
+      "Take breaks in shaded or cool areas",
+      "Avoid strenuous activity in hot weather",
+      "Use fans or cooling devices"
+    ],
+    "remedies": [
+      "Move to a cool or shaded place immediately",
+      "Drink water or ORS",
+      "Apply cold compress or wet cloth",
+      "Fan the person to cool down",
+      "Seek urgent medical help",
+      "Do NOT give fluids if unconscious",
+      "Hospital treatment may be required"
+    ]
+  }
+},
+"snake_bite": {
+  "en": {
+    "what": "A snake bite occurs when a snake injects venom into the body, which can affect the nervous system, blood, or tissues. Not all snakes are venomous, but venomous bites can be life-threatening and require immediate treatment.",
+    "symptoms": [
+      "Swelling and pain at the bite site",
+      "Bleeding or bruising",
+      "Nausea or vomiting",
+      "Weakness or dizziness",
+      "Numbness or tingling",
+      "Difficulty breathing (severe cases)",
+      "Paralysis (some snake venoms)",
+      "Blurred vision"
+    ],
+    "prevention": [
+      "Avoid walking in tall grass or bushes",
+      "Wear shoes outdoors, especially at night",
+      "Use a flashlight in dark areas",
+      "Do not handle or provoke snakes",
+      "Keep surroundings clean to prevent rodents",
+      "Seal holes and gaps in homes"
+    ],
+    "remedies": [
+      "Keep the person calm and still",
+      "Immobilize the affected limb",
+      "Remove tight clothing or jewelry",
+      "Seek emergency medical help immediately",
+      "Keep the bite area below heart level",
+      "Do NOT suck the venom",
+      "Do NOT tie a tourniquet",
+      "Do NOT apply ice or cut the wound",
+      "Hospital treatment with antivenom may be required"
+    ]
+  }
+},
+"food_poisoning": {
+  "en": {
+    "what": "Food poisoning occurs when a person eats food contaminated with bacteria, viruses, or toxins. It commonly happens due to improper food handling, storage, or unhygienic preparation.",
+    "symptoms": [
+      "Vomiting",
+      "Diarrhea",
+      "Stomach pain or cramps",
+      "Fever",
+      "Nausea",
+      "Weakness",
+      "Dehydration"
+    ],
+    "prevention": [
+      "Wash hands before eating or cooking",
+      "Avoid stale or spoiled food",
+      "Drink clean and safe water",
+      "Cook food thoroughly",
+      "Avoid street food in unhygienic places",
+      "Store food properly in refrigeration"
+    ],
+    "remedies": [
+      "Drink ORS to prevent dehydration",
+      "Drink plenty of clean water",
+      "Eat light foods like rice, bananas, toast",
+      "Rest well",
+      "Avoid oily, spicy, and dairy foods",
+      "Seek medical help if symptoms persist or worsen"
+    ]
+  }
+},
+"skin_infections": {
+  "en": {
+    "what": "Skin infections occur when bacteria, fungi, or viruses enter the skin, causing irritation and inflammation. Common types include fungal infections, bacterial infections like cellulitis, and viral infections like herpes.",
+    "symptoms": [
+      "Redness or rash",
+      "Itching",
+      "Swelling",
+      "Warmth in the affected area",
+      "Blisters or pus-filled bumps",
+      "Dry or flaky skin",
+      "Pain or tenderness"
+    ],
+    "prevention": [
+      "Maintain proper hygiene",
+      "Keep skin dry and clean",
+      "Avoid sharing towels, razors, or clothing",
+      "Wear breathable clothing",
+      "Treat wounds promptly",
+      "Avoid scratching affected areas",
+      "Keep nails trimmed and clean"
+    ],
+    "remedies": [
+      "Wash the area with mild soap and water",
+      "Apply antiseptic or antifungal creams",
+      "Keep the area dry and uncovered",
+      "Use warm compress for pain relief",
+      "Avoid scratching to prevent worsening",
+      "Seek medical care if infection spreads or pus forms",
+      "Antibiotics or antifungals may be required for severe cases"
+    ]
+  }
+}
+
+
+}

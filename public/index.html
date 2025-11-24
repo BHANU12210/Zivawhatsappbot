@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MedXpert — Offline Chatbot</title>
+  <link rel="stylesheet" href="/public/style.css">
+</head>
+<body>
+  <main class="app">
+
+    <header class="topbar">
+      <div class="brand">
+        <img src="/mnt/data/ff39a760-7e79-4068-a0e2-d050b31f907f.png" class="logo" />
+        <div>
+          <h1>MedXpert</h1>
+          <p class="tag">Offline health chatbot for rural users</p>
+        </div>
+      </div>
+
+      <select id="lang">
+        <option value="en">English</option>
+        <option value="hi">Hindi</option>
+        <option value="ta">Tamil</option>
+        <option value="te">Telugu</option>
+        <option value="kn">Kannada</option>
+        <option value="ml">Malayalam</option>
+      </select>
+    </header>
+
+    <section class="card">
+      <h2>Ask about symptoms, prevention or vaccines</h2>
+      <div class="chips">
+        <button class="chip" data-q="what is leg numbness?">Leg numbness</button>
+        <button class="chip" data-q="symptoms of dengue">Dengue</button>
+        <button class="chip" data-q="how to prevent malaria">Malaria</button>
+        <button class="chip" data-q="what is tuberculosis">Tuberculosis</button>
+      </div>
+    </section>
+
+    <section class="chat card">
+      <textarea id="prompt" placeholder="Type your question..."></textarea>
+      <button id="send" class="btn primary">Ask</button>
+      <div id="answer" class="answer"></div>
+    </section>
+  </main>
+  
+  <script src="/public/script.js"></script>
+</body>
+</html>
