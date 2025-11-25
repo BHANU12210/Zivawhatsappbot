@@ -116,17 +116,13 @@ GREET_KEYWORDS = {
 GREET_MESSAGE = {
     "en": (
         "👋 Hello! I'm *Ziva*, your WhatsApp health assistant.\n\n"
-        "You can ask about symptoms, prevention, remedies, or vaccination schedules."
+    
     ),
 }
 
 FALLBACK_MESSAGE = {
     "en": (
         "I couldn't find an answer for that.\n\n"
-        "Try asking about:\n"
-        "• Dengue symptoms\n"
-        "• Malaria prevention\n"
-        "• Vaccination schedule\n\n"
         "If this is an emergency, contact a doctor immediately."
     )
 }
@@ -180,7 +176,7 @@ def search_db(text: str, lang: str = "en") -> str | None:
     # If matched by NLP → short diagnosis-like message
     if not matched_by_key:
         return (
-            f"You are showing symptoms that match *{disease_title}*.\n"
+            f"You are showing symptoms that matches *{disease_title}*.\n"
             f"It is more likely to be *{disease_title}*.\n"
             f"Consult a doctor if things get worse."
         )
