@@ -105,6 +105,96 @@ def nlp_guess_disease(text: str) -> str | None:
 
 build_disease_index()
 
+# ------------------ KOCHI HOSPITALS (NEW) ------------------
+# Sources: Aster Medcity, Amrita AIMS, VPS Lakeshore, Rajagiri, Apollo Adlux, Lisie, etc.
+# (These entries contain name, address, phone, url and tags — tags help pick hospitals for specific disease categories.)
+HOSPITALS_KOCHI = [
+    {
+        "name": "Aster Medcity",
+        "address": "Kuttisahib Road, Cheranelloor, Kochi, Kerala 682027",
+        "phone": "+91-484-6699999",
+        "url": "https://www.asterhospitals.in/hospitals/aster-medcity-kochi",
+        "tags": ["multispecialty", "tertiary", "critical-care", "surgery"]
+    },
+    {
+        "name": "Amrita Institute of Medical Sciences (AIMS) - Kochi",
+        "address": "Amrita Lane, Elamakkara P.O., Kochi 682026",
+        "phone": "+91-484-2802020",
+        "url": "https://www.amritahospitals.org/kochi",
+        "tags": ["multispecialty", "teaching-hospital", "critical-care", "organ-transplant"]
+    },
+    {
+        "name": "VPS Lakeshore Hospital",
+        "address": "Nettoor/Maradu, Ernakulam, Kochi 682040",
+        "phone": "+91-484-2701032",
+        "url": "https://www.vpslakeshorehospital.com",
+        "tags": ["multispecialty", "cardiac", "critical-care", "emergency"]
+    },
+    {
+        "name": "Rajagiri Hospital (Aluva)",
+        "address": "Chunangamvely Road, GTN Junction, Aluva, Kochi",
+        "phone": "+91-484-2905100",
+        "url": "https://www.rajagirihospital.com",
+        "tags": ["multispecialty", "nephrology", "transplant", "critical-care"]
+    },
+    {
+        "name": "Apollo Adlux Hospital",
+        "address": "NH 66, Kochi",
+        "phone": "+91-484-2399000",
+        "url": "https://www.apollohospitals.com",
+        "tags": ["multispecialty", "critical-care", "emergency"]
+    },
+    {
+        "name": "Lisie Hospital",
+        "address": "Nadama, Kochi",
+        "phone": "+91-484-2604626",
+        "url": "https://www.lisiehospital.org",
+        "tags": ["multispecialty", "cardiology", "surgery"]
+    }
+]
+
+# Helper to pick hospitals relevant to a disease key
+def get_hospitals_for_disease(disease_key: str, limit: int = 3) -> list[dict]:
+    """
+    Very simple relevance: match disease-key derived tags to hospital tags.
+    If no tag match, return top multispecialty hospitals.
+    """
+    if not disease_key:
+        return []
+
+    # Build simple keyword -> tag map (extend as needed)
+    keyword_tag_map = {
+        "fever": ["emergency", "critical-care", "multispecialty"],
+        "dengue": ["emergency", "multispecialty"],
+        "malaria": ["emergency", "multispecialty"],
+        "covid": ["emergency", "critical-care"],
+        "cardiac": ["cardiac", "multispecialty"],
+        "heart": ["cardiac"],
+        "kidney": ["nephrology", "multispecialty", "transplant"],
+        "cancer": ["oncology", "multispecialty"],
+        "pregnancy": ["maternity", "multispecialty"],
+        # fallback will match multispecialty
+    }
+
+    low = disease_key.lower()
+    matched_tags = set()
+    for kw, tags in keyword_tag_map.items():
+        if kw in low:
+            matched_tags.update(tags)
+
+    # Score hospitals by tag overlap
+    scored = []
+    for h in HOSPITALS_KOCHI:
+        score = len(matched_tags & set(h.get("tags", [])))
+        # prefer hospitals marked multispecialty if no matches
+        if not matched_tags and "multispecialty" in h.get("tags", []):
+            score += 1
+        scored.append((score, h))
+
+    scored.sort(key=lambda x: x[0], reverse=True)
+    results = [h for s, h in scored if s >= 0][:limit]
+    return results
+
 # ------------------ language + greeting texts ------------------
 
 SUPPORTED_LANGS = {"en"}
@@ -113,17 +203,23 @@ GREET_KEYWORDS = {
     "en": ["hi", "hello", "hey", "hai"],
 }
 
+# HUMANIZED GREETING (NEW: emoji + friendlier tone)
 GREET_MESSAGE = {
     "en": (
-        "👋 Hello! I'm *Ziva*, your WhatsApp health assistant.\n\n"
-    
+        "👋 Hey — I'm *WellnessHelp*, your friendly WhatsApp health assistant!\n\n"
+        "Tell me your symptoms (e.g., \"fever and body ache\") or ask about a disease like \"dengue\".\n"
+        "I can give: symptoms, prevention, remedies, vaccination info, and local hospital suggestions in Kochi."
     ),
 }
 
 FALLBACK_MESSAGE = {
     "en": (
-        "I couldn't find an answer for that.\n\n"
-        "If this is an emergency, contact a doctor immediately."
+        "😕 I couldn't find an exact answer for that.\n\n"
+        "Try asking about:\n"
+        "• Dengue symptoms\n"
+        "• Malaria prevention\n"
+        "• Vaccination schedule\n\n"
+        "If this is an emergency, please contact local emergency services or visit the nearest hospital right away."
     )
 }
 
@@ -173,12 +269,12 @@ def search_db(text: str, lang: str = "en") -> str | None:
 
     disease_title = disease_key.replace("_", " ").replace("-", " ").title()
 
-    # If matched by NLP → short diagnosis-like message
+    # If matched by NLP → short diagnosis-like message (HUMANISED)
     if not matched_by_key:
         return (
-            f"You are showing symptoms that matches *{disease_title}*.\n"
-            f"It is more likely to be *{disease_title}*.\n"
-            f"Consult a doctor if things get worse."
+            f"🤖 It looks like your symptoms match *{disease_title}*.\n"
+            f"⚠️ This is only an initial guess — please consult a doctor if you feel unwell.\n"
+            f"I can also suggest nearby hospitals in Kochi if you'd like."
         )
 
     # User typed the disease → full details
@@ -207,9 +303,9 @@ def search_db(text: str, lang: str = "en") -> str | None:
 
     if isinstance(data, list):
         bullet_lines = "\n".join("• " + item for item in data)
-        return f"*{disease_title} – {heading}*\n{bullet_lines}"
+        return f"💡 *{disease_title} – {heading}*\n{bullet_lines}"
     else:
-        return f"*{disease_title} – {heading}*\n{data}"
+        return f"💡 *{disease_title} – {heading}*\n{data}"
 
 # ------------------ main logic ------------------
 
@@ -231,19 +327,39 @@ def process_message(text: str, lang: str = "en") -> dict:
     if any(t in lower for t in THANKS):
         return {
             "type": "thanks",
-            "answer": "😊 You're welcome! Let me know if you need more health information."
+            "answer": "😊 You're welcome! Glad I could help. Anything else I can do?"
         }
 
     # FAQ
     db_answer = search_db(text, lang)
     if db_answer:
-        return {"type": "db", "answer": db_answer}
+        # Determine disease_key again so we can attach hospitals if relevant
+        disease_key = None
+        for d in DB.keys():
+            variants = {d.lower(), d.lower().replace("_", " "), d.lower().replace("-", " ")}
+            if any(v in lower for v in variants):
+                disease_key = d
+                break
+        if not disease_key:
+            disease_key = nlp_guess_disease(text)
+
+        payload = {"answer": db_answer}
+        if disease_key:
+            # Attach hospital suggestions (humanized)
+            hospitals = get_hospitals_for_disease(disease_key, limit=3)
+            hosp_text_lines = []
+            for h in hospitals:
+                hosp_text_lines.append(f"• {h['name']} — {h['address']} (☎ {h['phone']})")
+            hosp_block = "\n".join(hosp_text_lines)
+            payload["hospitals"] = hospitals
+            payload["answer"] += "\n\n🏥 *Nearby hospitals in Kochi you can consider:*\n" + hosp_block
+        return {"type": "db", "answer": payload}
 
     # Vaccination
     if any(w in lower for w in ["vaccine", "vaccination", "immunization"]):
         return {
             "type": "vaccination",
-            "answer": "Here is the vaccination schedule (infant, child, adult).",
+            "answer": "💉 Here is the vaccination schedule (infant, child, adult).",
             "extra": vaccinations.VACCINATION_SCHEDULES
         }
 
@@ -255,7 +371,18 @@ def process_message(text: str, lang: str = "en") -> dict:
     # Older simple-disease module
     disease_info = diseases_multilang.find_disease(text, "en")
     if disease_info:
-        return {"type": "disease", "answer": disease_info}
+        # If this module returns data, also suggest hospitals
+        guessed = nlp_guess_disease(text)  # try to map to DB key if possible
+        hospitals = []
+        if guessed:
+            hospitals = get_hospitals_for_disease(guessed, limit=3)
+        answer_text = "🤝 " + disease_info
+        payload = {"answer": answer_text}
+        if hospitals:
+            hosp_text_lines = [f"• {h['name']} — {h['address']} (☎ {h['phone']})" for h in hospitals]
+            payload["hospitals"] = hospitals
+            payload["answer"] += "\n\n🏥 *Nearby hospitals in Kochi you can consider:*\n" + "\n".join(hosp_text_lines)
+        return {"type": "disease", "answer": payload}
 
     return {"type": "fallback", "answer": FALLBACK_MESSAGE["en"]}
 
@@ -273,6 +400,17 @@ def index():
 @app.post("/chat")
 def chat(msg: ChatMessage):
     result = process_message(msg.message, msg.lang)
+    # result["answer"] may be a dict payload now (for db/disease types)
+    if isinstance(result["answer"], dict):
+        payload = result["answer"]
+        return JSONResponse({
+            "type": result["type"],
+            "payload": {
+                "answer": payload.get("answer"),
+                "extra": payload.get("extra"),
+                "hospitals": payload.get("hospitals")
+            }
+        })
     return JSONResponse({
         "type": result["type"],
         "payload": {
@@ -296,7 +434,12 @@ async def whatsapp_webhook(request: Request):
         text = raw_body.split(" ", 1)[-1]
 
     result = process_message(text, lang)
-    answer = result.get("answer") or "Sorry, something went wrong."
+    # handle the new payload structure for WhatsApp: send only the friendly text reply
+    answer = ""
+    if isinstance(result.get("answer"), dict):
+        answer = result["answer"].get("answer") or "Sorry, something went wrong."
+    else:
+        answer = result.get("answer") or "Sorry, something went wrong."
 
     resp = MessagingResponse()
     resp.message(answer)
